@@ -1,0 +1,7 @@
+﻿<scrollable-settings-container>
+  <toggle-setting text='Enabled' value='Enabled' apply-on-change='true'></toggle-setting>
+  <dropdown-list-setting text='Click Method' choices='clickMethods' value='clickMethod' apply-on-change='true'></dropdown-list-setting>
+  <slider-setting text='MouseX' min='0' max='1920' increment='1' value='MouseX' integer-only='true' apply-on-change='true' bind-value='true'/>
+  <slider-setting text='MouseY' min='0' max='1080' increment='1' value='MouseY' integer-only='true' apply-on-change='true' bind-value='true'/>
+  <button text='Get Current Cursor Postition' on-click='getCursor'/>
+</scrollable-settings-container>
