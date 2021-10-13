@@ -107,8 +107,6 @@ namespace CookieSaber
 
         public void NoteCut(NoteData notedata, NoteCutInfo cutinfo, int multiplier)
         {
-            Log.Info($"ModEnabled value: {ModEnabled}");
-            Log.Info($"Click Method value: {ClickMethod}");
             if (ModEnabled && cutinfo.allIsOK)
             {
                 if (ClickMethod == 1)
